@@ -85,3 +85,58 @@ nav ul li a:hover{
     margin: 0;
     color: #ff69b4; /* Rosa brillante */
 }
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.column {
+    flex: 0 0 calc(33.33% - 20px); /* Tamaño de columna del 33.33%, con espacio entre columnas */
+    margin-bottom: 20px;
+}
+
+.column img {
+    max-width: 100%; /* Ancho máximo de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease; /* Transición suave al hacer hover */
+}
+
+.column img:hover {
+    transform: scale(1.05); /* Zoom al hacer hover */
+}
+
+.blog-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post {
+    margin-bottom: 40px;
+}
+
+.post-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.post-meta {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.post-content {
+    line-height: 1.6;
+    color: #555;
+}
