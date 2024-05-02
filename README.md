@@ -39,3 +39,8 @@ El proyecto está estructurado de la siguiente manera:
   - Contador de tiempo funcional que muestra el tiempo restante para un evento específico.
   - Blog con entradas separadas visualmente y texto alineado a la izquierda.
 
+### v1.0.1
+- Fecha: 2 de mayo de 2024
+- Descripción: Parche, pequeñas correcciones y de paso un background mejor.
+
+
