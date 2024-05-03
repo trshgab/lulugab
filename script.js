@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Establecemos la fecha de inicio para las 15:30
-    var fechaInicio = new Date('2024-05-02T15:30:00-03:00'); // Ajustamos la fecha de inicio con la zona horaria de Argentina (GMT-3)
+    var fechaInicio = new Date('2024-05-13T00:30:00-03:00'); // Ajustamos la fecha de inicio con la zona horaria de Argentina (GMT-3)
     var contadorElemento = document.getElementById('contador');
 
     function actualizarContador() {
