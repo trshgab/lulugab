@@ -25,22 +25,28 @@ El proyecto está estructurado de la siguiente manera:
 - `script.js`: Archivo JavaScript que contiene el código para el contador de tiempo.
 - `img/`: Directorio que contiene las imágenes utilizadas en la página.
 
-## Autor
+## Autor y Detalles
 
-- Gab (trshgab)
-- Fecha de Creación: 2 de Mayo de 2024 (a contrareloj)
+- **Gab** (trshgab)
+- **Fecha de Creación:** 2 de Mayo de 2024 (a contrareloj)
 
 ## Versiones
 
 ### v1.0
-- Fecha: 2 de mayo de 2024
-- Descripción: Primera versión del proyecto que incluye el contador de tiempo, galería de imágenes y blog.
-- Características:
+- **Fecha:** 2 de mayo de 2024
+- **Descripción:** Primera versión del proyecto que incluye el contador de tiempo, galería de imágenes y blog.
+- **Características:**
   - Contador de tiempo funcional que muestra el tiempo restante para un evento específico.
   - Blog con entradas separadas visualmente y texto alineado a la izquierda.
 
 ### v1.0.1
-- Fecha: 2 de mayo de 2024
-- Descripción: Parche, pequeñas correcciones y de paso un background mejor.
+- **Fecha:** 2 de mayo de 2024
+- **Descripción:** Parche, pequeñas correcciones y de paso un background mejor.
+
+### v1.2
+- **Fecha:** 7 de mayo de 2024
+- **Descripción:** Compatibilidad con mobiles y algunas correcciónes.
+- **Características:**
+  - Si la pantalla tiene un ancho menor a 758px, se ajusta al ancho del dispositivo.
 
 
